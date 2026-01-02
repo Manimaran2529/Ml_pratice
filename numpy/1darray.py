@@ -15,11 +15,14 @@ print(arry)
 print(arry.shape)# this is used to check the dimensions of the array  we can also use ndim,size
 
 #example 2 add the new data to the 1 D array
-import numpy as np
+import numpy as np  
 m=np.array([10,20])
 c=np.append(m,30)
 print(c) #o/p [10 20 30]
-
+import numpy as pd
+mani=pd.array([10,20])
+maran=pd.insert(mani,1,0)
+print(maran)
 
 #example 3 delete the new data to the 1 D array
 
