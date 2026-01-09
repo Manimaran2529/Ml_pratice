@@ -36,9 +36,38 @@ mani=np.array([[10,20,40],[50,60,70]])
 maran=np.delete(mani,0,axis=1)
 print(maran)
 
+
 #example:6 dele the values in the row 
 import numpy as np
 mani=np.array([[10,20,40],
                [50,60,70]])
 maran=np.delete(mani,0,axis=0)
-print(maran)
+print(maran) 
+
+#example7:indexing
+import numpy as np
+mani=np.array([[10,20,40,50],
+              [50,60,80,90],
+              [12,20,44,55]])
+print(mani[0][0])
+print(mani[1][0])
+print(mani[2][0])
+
+#example8:slicing
+import numpy as np
+mani=np.array([[10,20,30],
+               [10,20,30],
+               [10,20,30]])
+print(mani[0,0:2])
+print(mani[1,0:2])
+print(mani[2,0:2])
+
+
+#example9:print only the rows
+import numpy as np
+arr = np.array([[10,20,30],
+                [40,50,60],
+                [70,80,90]])
+
+print(arr[:,1])#print the  row only o/p[20,50,80]
+
